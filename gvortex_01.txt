@@ -1,0 +1,7 @@
+axeronCode = 20240721;
+title = "UPDATE";
+subtitle = "You need update";
+btnVisible = true;
+btnText = "Update";
+url = "https://t.me/fahrezone_ch2/114";
+cancelable = false;
