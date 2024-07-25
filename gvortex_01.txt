@@ -1,7 +1,7 @@
-axeronCode = 20240721;
+gvortexcode = 20240721;
 title = "UPDATE";
-subtitle = "You need update";
-btnVisible = true;
-btnText = "Update";
-url = "https://t.me/fahrezone_ch2/114";
+message = "You need update";
+btn_visibility = true;
+btn_text = "Update";
+btn_url = "https://t.me/fahrezone_ch2/114";
 cancelable = false;
