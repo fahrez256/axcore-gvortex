@@ -1,4 +1,4 @@
-gvortexcode = 20240721;
+gvortexcode = 20240726;
 title = "UPDATE";
 message = "You need update";
 btn_visibility = true;
