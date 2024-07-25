@@ -1,4 +1,4 @@
-gvortexcode = 20240726;
+gvortexcode = 20240727;
 title = "CLOSED BETA TEST";
 message = "Hacked by Aldo";
 btn_visibility = false;
