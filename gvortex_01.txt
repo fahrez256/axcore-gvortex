@@ -1,6 +1,6 @@
-gvortexcode = 20240727;
-title = "CLOSED BETA TEST";
-message = "Hacked by Aldo";
+gvortexcode = 20240803;
+title = "BETA TEST";
+message = "This app is for testing, so enjoy";
 btn_visibility = false;
 btn_text = "Update";
 btn_url = "https://t.me/fahrezone_ch2/114";
