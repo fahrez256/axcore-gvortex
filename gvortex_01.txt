@@ -1,4 +1,4 @@
-gvortexcode = 20240805;
+gvortexcode = 20240806;
 title = "Update";
 message = "New Update, you can try now";
 btn_visibility = true;
