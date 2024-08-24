@@ -1,5 +1,5 @@
 gvortexcode = 240824005;
-reqaxcode = 240824000
+reqaxcode = 240824000;
 title = "Test";
 message = "Test";
 btn_visibility = true;
