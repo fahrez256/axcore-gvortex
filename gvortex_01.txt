@@ -1,8 +1,8 @@
-gvortexcode = 240824005;
+gvortexcode = 240824004;
 reqaxcode = 240824000;
-title = "Test";
-message = "Test";
+title = "Update Available";
+message = "Update (Join)";
 btn_visibility = true;
 btn_text = "Join";
-btn_url = "https://t.me/fahrezone_project";
+btn_url = "https://t.me/fahrezone_project/339";
 cancelable = true;
