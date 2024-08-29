@@ -1,8 +1,8 @@
-gvortexcode = 240824004;
+gvortexcode = 240824007;
 reqaxcode = 240824000;
 title = "Update Available";
-message = "This update is test mode, not all features can be used";
+message = "This update is test mode, not all features can be used. and update Axeron Core too";
 btn_visibility = true;
 btn_text = "Update (Join)";
-btn_url = "https://t.me/fahrezone_project/339";
+btn_url = "https://t.me/fahrezone_project/399";
 cancelable = true;
