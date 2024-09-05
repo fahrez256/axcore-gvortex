@@ -1,2 +1,1 @@
-echo "banned"
-exit 0
+export AXFUN="anjay";
