@@ -6,4 +6,4 @@ export AX_MODULES_PATH="!axModules"
 export MODULE_PACKAGE="!modulePackage"
 export MODULE_NAME="!moduleName"
 export MODULE_PATH="$AX_MODULES_PATH/$MODULE_PACKAGE/$MODULE_NAME"
-export AX_FUN=". $AX_MODULES_PATH/.config/function.sh";
+export AX_FUN=". $AX_MODULES_PATH/.config/function.sh"
