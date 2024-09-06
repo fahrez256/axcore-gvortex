@@ -7,5 +7,5 @@ export MODULE_PACKAGE="!modulePackage"
 export MODULE_NAME="!moduleName"
 export MODULE_PATH="$AX_MODULES_PATH/$MODULE_PACKAGE/$MODULE_NAME"
 export MODULE_PATH_WEB="$AX_MODULES_PATH/$MODULE_PACKAGE/$MODULE_NAME/webroot"
-export AX_FUN=". $AX_MODULES_PATH/.config/function.sh"
-$AX_FUN
+export AXFUN=". $AX_MODULES_PATH/.config/function.sh"
+$AXFUN
