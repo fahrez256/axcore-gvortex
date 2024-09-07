@@ -1,9 +1,5 @@
 class Axeron {
-  exec(command, options) {
-    if (typeof options === "undefined") {
-      options = {};
-    }
-
+  exec(command, options = {}) {
     return new Promise((resolve, reject) => {
       const callbackFuncName = getUniqueCallbackName("exec");
 
@@ -48,4 +44,18 @@ class Axeron {
   }
 }
 
-export const Axeron = new Axeron();
+const axeronInstance = new Axeron();
+
+export function exec(command, options = {}) {
+  return axeronInstance.exec(command, options);
+}
+
+export function toast(message) {
+  return axeronInstance.toast(message);
+}
+
+export function optimizeApp(packageName) {
+  return axeronInstance.optimizeApp(packageName);
+}
+
+export default axeronInstance;
