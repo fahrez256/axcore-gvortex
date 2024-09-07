@@ -54,7 +54,7 @@ export function toast(message) {
   return axeronInstance.toast(message);
 }
 
-export function optimizeApp(packageName) {
+export function optimizeApp(packageName = null) {
   return axeronInstance.optimizeApp(packageName);
 }
 
