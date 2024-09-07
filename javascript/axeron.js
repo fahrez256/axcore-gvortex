@@ -36,3 +36,7 @@ function getUniqueCallbackName(prefix) {
 export function toast(message) {
 	Axeron.showToast(message);
 }
+
+export function optimizeApp(package) {
+	Axeron.optimizeApp(package);
+}
