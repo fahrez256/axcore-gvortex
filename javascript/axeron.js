@@ -39,8 +39,8 @@ class Axeron {
     Axeron.showToast(message);
   }
 
-  optimizeApp(package) {
-    Axeron.optimizeApp(package);
+  optimizeApp(packageName) {
+    Axeron.optimizeApp(packageName);
   }
 }
 
