@@ -39,7 +39,7 @@ class AxeronMain {
     Axeron.showToast(message);
   }
 
-  optimizeApp(packageName) {
+  optimizeApp(packageName = null) {
     Axeron.optimizeApp(packageName);
   }
 }
