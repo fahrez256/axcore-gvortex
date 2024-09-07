@@ -48,4 +48,4 @@ class Axeron {
   }
 }
 
-export const Axeron = new Main();
+export const Axeron = new Axeron();
