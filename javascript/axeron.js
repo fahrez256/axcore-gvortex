@@ -1,7 +1,7 @@
 class AxeronMain {
   exec(command, options = {}) {
     return new Promise((resolve, reject) => {
-      const callbackFuncName = getUniqueCallbackName("exec");
+      const callbackFuncName = this.getUniqueCallbackName("exec");
 
       // Define the success callback function
       window[callbackFuncName] = (errno, stdout, stderr) => {
