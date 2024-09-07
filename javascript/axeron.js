@@ -35,8 +35,25 @@ class AxeronMain {
     );
   }
 
-  toast(message) {
-    Axeron.showToast(message);
+  toast(titleOrMessage, messageOrDuration, duration = 3000) {
+    let title = "";
+    let message = "";
+    
+    // Jika hanya ada satu parameter, anggap itu sebagai "message"
+    if (messageOrDuration === undefined) {
+      message = titleOrMessage;
+    } else if (typeof messageOrDuration === "number") {
+      // Jika parameter kedua adalah angka, anggap itu sebagai "duration"
+      message = titleOrMessage;
+      duration = messageOrDuration;
+    } else {
+      // Jika parameter kedua adalah string, itu dianggap sebagai "message"
+      title = titleOrMessage;
+      message = messageOrDuration;
+    }
+
+    // Panggil Axeron.showToast dengan parameter yang telah ditentukan
+    Axeron.showToast(title, message, duration);
   }
 
   optimizeApp(packageName = null) {
