@@ -67,8 +67,8 @@ export function exec(command, options = {}) {
   return axeronInstance.exec(command, options);
 }
 
-export function toast(message) {
-  return axeronInstance.toast(message);
+export function toast(titleOrMessage, messageOrDuration, duration) {
+  return axeronInstance.toast(titleOrMessage, messageOrDuration, duration);
 }
 
 export function optimizeApp(packageName = null) {
