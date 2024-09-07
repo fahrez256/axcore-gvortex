@@ -1,4 +1,4 @@
-class Axeron {
+class AxeronMain {
   exec(command, options = {}) {
     return new Promise((resolve, reject) => {
       const callbackFuncName = getUniqueCallbackName("exec");
@@ -44,7 +44,7 @@ class Axeron {
   }
 }
 
-const axeronInstance = new Axeron();
+const axeronInstance = new AxeronMain();
 
 export function exec(command, options = {}) {
   return axeronInstance.exec(command, options);
