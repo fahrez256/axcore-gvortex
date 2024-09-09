@@ -10,8 +10,8 @@ class AxeronMain {
       };
 
       // Membersihkan callback setelah digunakan
-      function cleanup(successName) {
-        delete window[successName];
+      function cleanup(callbackName) {
+        delete window[callbackName];
       }
 
       try {
