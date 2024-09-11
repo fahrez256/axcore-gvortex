@@ -11,7 +11,6 @@ class AxConstant {
     this.MODULE_PKG = "!modulePkg";
     this.MODULE_NAME = "!moduleName";
     
-    // Properti ini menggunakan nilai dari properti lain
     this.MODULE_PATH = `${this.AX_MODULES_PATH}/${this.MODULE_NAME}`;
     this.MODULE_PATH_WEB = `${this.AX_MODULES_PATH}/${this.MODULE_NAME}/webroot`;
   }
