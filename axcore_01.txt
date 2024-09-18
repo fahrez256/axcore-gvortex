@@ -2,3 +2,5 @@ axcode = 240911008;
 axname = "axcore240911";
 axcode_gvr240917011 = 240911008;
 axname_gvr240917011 = "axcore240911";
+axcode_gvr240918012 = 240918012;
+axname_gvr240918012 = "VortexCore";
