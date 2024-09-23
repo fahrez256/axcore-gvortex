@@ -6,6 +6,3 @@ btn_text = "Update (Join)";
 btn_url = "https://t.me/fahrezone_project/635";
 cancelable = false;
 reqaxcode = 240919000;
-reqaxcode_gvr240917011 = 240911008;
-reqaxcode_gvr240918012 = 240918013;
-reqaxcode_gvr240919000 = 240919000;
