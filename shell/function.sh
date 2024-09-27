@@ -67,3 +67,6 @@ toast() {
 
 	am broadcast -a gvr.service.TOAST --es title "$title" --es message "$msg" --ei duration "$duration" > /dev/null 2>&1
 }
+
+testing() {
+}
