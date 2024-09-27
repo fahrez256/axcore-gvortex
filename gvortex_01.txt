@@ -1,4 +1,4 @@
-gvortexcode = 240923002;
+gvortexcode = 240923001;
 title = "Update";
 message = "This update is test mode, not all features can be used. and update Vortex Core too";
 btn_visibility = true;
