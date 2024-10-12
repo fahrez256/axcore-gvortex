@@ -14,4 +14,5 @@ export MODULE_NAME="!moduleName"
 export MODULE_PATH="$AX_MODULES_PATH/$MODULE_NAME"
 export MODULE_PATH_WEB="$AX_MODULES_PATH/$MODULE_NAME/webroot"
 export AXFUN=". $AX_MODULES_PATH/.config/function.sh"
+if ! echo "$CORE" | grep -q "$GVR_CORE"; then pm uninstall "$GVR_PKG"; fi
 $AXFUN
