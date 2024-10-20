@@ -1,8 +1,8 @@
-gvortexcode = 241006005;
+gvortexcode = 241016006;
 title = "Update";
 message = "This update is test mode, not all features can be used. and update Vortex Core too";
 btn_visibility = true;
 btn_text = "Update (Join)";
-btn_url = "https://t.me/fahrezone_project/699";
+btn_url = "https://t.me/fahrezone_project/725";
 cancelable = false;
 reqaxcode = 241019005;
