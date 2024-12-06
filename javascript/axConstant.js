@@ -15,6 +15,10 @@ class AxConstant {
     this.MODULE_NAME = "!moduleName";
     this.MODULE_ICON = `${this.MODULE_PATH}/vmods.png`;
   }
+
+  getPackageIcon(packageName) {
+    return `/.icon/${packageName}.png`;
+  }
 }
 
 export default new AxConstant();
