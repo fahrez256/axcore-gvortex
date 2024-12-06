@@ -13,7 +13,7 @@ class AxConstant {
     this.MODULE_NAME = "!moduleName";
     this.MODULE_PATH = `${this.AX_MODULES_PATH}/${this.MODULE_NAME}`;
     this.MODULE_PATH_WEB = `${this.AX_MODULES_PATH}/${this.MODULE_NAME}/webroot`;
-    this.MODULE_ICON = `${this.MODULE_PATH}/vmods.png`;
+    this.MODULE_ICON = `/${this.MODULE_NAME}/vmods.png`;
   }
 
   getPackageIcon(packageName) {
