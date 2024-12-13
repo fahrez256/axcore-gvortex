@@ -123,7 +123,7 @@ class StormDownload {
 			window[callbackName] = (message) => {
 				callback(message);
 				// Opsional: Hapus jika tidak ingin menyimpan callback setelah dipanggil
-				// delete window[callbackName];
+				delete window[callbackName];
 			};
 		} else {
 			console.error(`${type} callback must be a function.`);
