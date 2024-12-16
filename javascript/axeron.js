@@ -6,7 +6,7 @@ class AxeronMain {
       // Define the success callback function
       window[callbackFuncName] = (errno, stdout, stderr) => {
         resolve({ errno, stdout, stderr }); // Resolusi Promise dengan hasil dari Java
-        cleanup(callbackFuncName); // Hapus callback setelah digunakan
+        //cleanup(callbackFuncName); // Hapus callback setelah digunakan
       };
 
       // Membersihkan callback setelah digunakan
