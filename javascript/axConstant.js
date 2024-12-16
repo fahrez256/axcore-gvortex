@@ -10,6 +10,7 @@ class AxConstant {
     this.AX_MODULES_PATH = "!axModulePath";
 
     this.MODULE_PKG = "!modulePkg";
+    this.MODULE_PKG_NAME = "!pkgName";
     this.MODULE_PKG_VNAME = "!pkgVName";
     this.MODULE_PKG_VCODE = "!pkgVCode";
     this.MODULE_NAME = "!moduleName";
