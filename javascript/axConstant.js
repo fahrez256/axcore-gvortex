@@ -6,7 +6,7 @@ class AxConstant {
     this.AX_VCODE = !axVCode;
     this.GVR_PKG = "!gvrPkg";
     this.GVR_VNAME = "!gvrVName";
-    this.GVR_VCODE = "!gvrVCode";
+    this.GVR_VCODE = !gvrVCode;
     this.AX_MODULES_PATH = "!axModulePath";
 
     this.MODULE_PKG = "!modulePkg";
