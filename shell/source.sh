@@ -11,6 +11,7 @@ export GVR_VCODE="!gvrVCode"
 export AX_MODULES_PATH="!axModulePath"
 
 export MODULE_PKG="!modulePkg"
+export MODULE_PKG_NAME="!pkgName";
 export MODULE_PKG_VNAME="!pkgVName"
 export MODULE_PKG_VCODE="!pkgVCode"
 export MODULE_NAME="!moduleName"
