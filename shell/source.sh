@@ -1,4 +1,5 @@
 export CORE="d8a97692ad1e71b1"
+export AX_FUNCTION_PATH="!axFunctionPath"
 export AX_PKG="!axPkg"
 export AX_CORE=$(dumpsys package "$AX_PKG" | grep "signatures" | cut -d '[' -f 2 | cut -d ']' -f 1)
 export AX_ID="!axId"
