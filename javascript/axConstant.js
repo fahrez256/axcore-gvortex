@@ -8,7 +8,6 @@ class AxConstant {
     this.GVR_VNAME = "!gvrVName";
     this.GVR_VCODE = "!gvrVCode";
     this.AX_MODULES_PATH = "!axModulePath";
-    this.AX_FUNCTION_PATH = `${this.AX_MODULES_PATH}/.config/function.sh`;
 
     this.MODULE_PKG = "!modulePkg";
     this.MODULE_PKG_NAME = "!pkgName";
@@ -18,8 +17,9 @@ class AxConstant {
     this.MODULE_VNAME = "!moduleVName";
     this.MODULE_VCODE = "!moduleVCode";
     this.MODULE_PATH = `${this.AX_MODULES_PATH}/${this.MODULE_NAME}`;
-    this.MODULE_PATH_WEB = `${this.AX_MODULES_PATH}/${this.MODULE_NAME}/webroot`;
+    this.MODULE_PATH_WEB = `${this.MODULE_PATH}/webroot`;
     this.MODULE_PATH_ICON = `/${this.MODULE_NAME}/vmods.png`;
+    this.AXFUN = `. ${this.AX_MODULES_PATH}/.config/function.sh`;
   }
 
   getPackageIcon(packageName) {
