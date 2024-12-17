@@ -8,6 +8,7 @@ class AxConstant {
     this.GVR_VNAME = "!gvrVName";
     this.GVR_VCODE = "!gvrVCode";
     this.AX_MODULES_PATH = "!axModulePath";
+    this.AX_FUNCTION_PATH = `${this.AX_MODULES_PATH}/.config/function.sh`;
 
     this.MODULE_PKG = "!modulePkg";
     this.MODULE_PKG_NAME = "!pkgName";
