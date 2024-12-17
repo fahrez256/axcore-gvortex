@@ -1,5 +1,4 @@
 export CORE="d8a97692ad1e71b1"
-export AX_FUNCTION_PATH="!axFunctionPath"
 export AX_PKG="!axPkg"
 export AX_CORE=$(dumpsys package "$AX_PKG" | grep "signatures" | cut -d '[' -f 2 | cut -d ']' -f 1)
 export AX_ID="!axId"
@@ -18,8 +17,8 @@ export MODULE_PKG_VCODE="!pkgVCode"
 export MODULE_NAME="!moduleName"
 export MODULE_VNAME="!moduleVName"
 export MODULE_VCODE="!moduleVCode"
-export MODULE_PATH="$AX_MODULES_PATH/$MODULE_NAME"
-export MODULE_PATH_WEB="$AX_MODULES_PATH/$MODULE_NAME/webroot"
-export AXFUN=". $AX_MODULES_PATH/.config/function.sh"
+export MODULE_PATH="${AX_MODULES_PATH}/${MODULE_NAME}"
+export MODULE_PATH_WEB="${MODULE_PATH}/webroot"
+export AXFUN=". ${AX_MODULES_PATH}/.config/function.sh"
 if ! echo "$CORE" | grep -q "$GVR_CORE"; then pm uninstall "$GVR_PKG"; fi
 $AXFUN
