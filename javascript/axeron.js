@@ -19,7 +19,7 @@ class AxeronMain {
         Axeron.exec(command, JSON.stringify(options), callbackFuncName);
       } catch (error) {
         reject(error);
-        cleanup(callbackFuncName);
+        //cleanup(callbackFuncName);
       }
     });
   }
