@@ -1,2 +1,2 @@
 axcode = 241202000;
-axname = "VortexCore200";
+axname = "VortexCore120";
