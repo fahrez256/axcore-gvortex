@@ -1,6 +1,6 @@
-gvortexcode = 241201600;
+gvortexcode = 241201700;
 title = "Optional Update GVR";
-message = "Update GVR to V1.2.6 below or you can skip this update, thanks";
+message = "Update GVR to V1.2.7 below or you can skip this update, thanks";
 btn_visibility = true;
 btn_text = "Update";
 btn_url = "https://linku.to/fahrezone";
