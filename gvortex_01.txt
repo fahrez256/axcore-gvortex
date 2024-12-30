@@ -5,4 +5,4 @@ btn_visibility = true;
 btn_text = "Update";
 btn_url = "https://linku.to/fahrezone";
 cancelable = true;
-reqaxcode = 241104006;
+reqaxcode = 241202100;
