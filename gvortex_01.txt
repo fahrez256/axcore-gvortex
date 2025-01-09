@@ -1,4 +1,4 @@
-gvortexcode = 241201800;
+gvortexcode = 241201700;
 title = "Optional Update GVR";
 message = "Update GVR to V1.2.8 below or you can skip this update, thanks";
 btn_visibility = true;
