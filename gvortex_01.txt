@@ -1,7 +1,7 @@
-gvortexcode = 241201700;
-title = "Optional Update GVR";
-message = "Update GVR to V1.2.8 below or you can skip this update, thanks";
-btn_visibility = true;
+gvortexcode = 261201700;
+title = "Thank You";
+message = "GVR Sudah sampai pada tahap terakhir, terimakasih sudah menggunakan Aplikasi ini. Kamu tetap bisa menggunakannya kok :)\n\nGVR has reached the final stage, thank you for using this application. You can still use it :)";
+btn_visibility = false;
 btn_text = "Update";
 btn_url = "https://linku.to/fahrezone";
 cancelable = true;
