@@ -1,6 +1,6 @@
 gvortexcode = 261201700;
 title = "Thank You";
-message = "GVR Sudah sampai pada tahap terakhir, terimakasih sudah menggunakan Aplikasi ini. Kamu tetap bisa menggunakannya kok :)\n\nGVR has reached the final stage, thank you for using this application. You can still use it :)";
+message = "GVR Sudah sampai pada tahap terakhir, terimakasih sudah menggunakan Aplikasi ini. Kamu tetap bisa menggunakannya kok :)\n\n\nGVR has reached the final stage, thank you for using this application. You can still use it :)";
 btn_visibility = true;
 btn_text = "Check Update?";
 btn_url = "https://www.tiktok.com/@fahrezone";
