@@ -1,8 +1,8 @@
-gvortexcode = 241201700;
-title = "Thank You";
+gvortexcode = 251201700;
+title = "Join My Official WhatsApp Ch";
 message = "GVR Sudah sampai pada tahap terakhir, terimakasih sudah menggunakan Aplikasi ini. Kamu tetap bisa menggunakannya kok :) ---- GVR has reached the final stage, thank you for using this application. You can still use it :)";
 btn_visibility = true;
-btn_text = "Check Update?";
-btn_url = "https://www.tiktok.com/@fahrezone";
+btn_text = "Join Here";
+btn_url = "https://whatsapp.com/channel/0029VamjH8L7oQhf4ZE2vU0u";
 cancelable = true;
 reqaxcode = 241202100;
