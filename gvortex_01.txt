@@ -5,4 +5,4 @@ btn_visibility = true;
 btn_text = "Join Here";
 btn_url = "https://whatsapp.com/channel/0029VamjH8L7oQhf4ZE2vU0u";
 cancelable = true;
-reqaxcode = 241202100;
+reqaxcode = 250516000;
