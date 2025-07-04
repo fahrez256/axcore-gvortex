@@ -1,8 +1,8 @@
-gvortexcode = 241201700;
-title = "Join My Official WhatsApp Ch";
-message = "GVR Sudah sampai pada tahap terakhir, terimakasih sudah menggunakan Aplikasi ini. Kamu tetap bisa menggunakannya kok :) ---- GVR has reached the final stage, thank you for using this application. You can still use it :)";
+gvortexcode = 250103000;
+title = "Surprise!!";
+message = "I Have an Update for you, update now?";
 btn_visibility = true;
-btn_text = "Join Here";
-btn_url = "https://whatsapp.com/channel/0029VamjH8L7oQhf4ZE2vU0u";
+btn_text = "Update Here";
+btn_url = "https://whatsapp.com/channel/0029VamjH8L7oQhf4ZE2vU0u/570";
 cancelable = true;
-reqaxcode = 250516000;
+reqaxcode = 250516100;
